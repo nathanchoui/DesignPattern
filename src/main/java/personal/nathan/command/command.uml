@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>personal.nathan.command.codes</OriginalElement>
+  <nodes>
+    <node x="376.2767857142858" y="35.0">personal.nathan.command.codes.Order</node>
+    <node x="146.42559523809527" y="386.0">personal.nathan.command.codes.CommandPatternDemo</node>
+    <node x="18.90178571428575" y="184.0">personal.nathan.command.codes.SellStock</node>
+    <node x="237.90178571428575" y="184.0">personal.nathan.command.codes.BuyStock</node>
+    <node x="456.9017857142858" y="184.5">personal.nathan.command.codes.Broker</node>
+    <node x="0.5654761904762609" y="0.0">personal.nathan.command.codes.Stock</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="personal.nathan.command.codes.CommandPatternDemo" target="personal.nathan.command.codes.Stock">
+      <point x="-69.75" y="-27.0" />
+      <point x="169.67559523809527" y="316.0" />
+      <point x="0.0" y="316.0" />
+      <point x="0.0" y="164.0" />
+      <point x="33.898809523809575" y="164.0" />
+      <point x="-66.66666666666669" y="62.0" />
+    </edge>
+    <edge source="personal.nathan.command.codes.CommandPatternDemo" target="personal.nathan.command.codes.BuyStock">
+      <point x="23.25" y="-27.0" />
+      <point x="262.6755952380953" y="306.0" />
+      <point x="337.4017857142858" y="306.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="personal.nathan.command.codes.SellStock" target="personal.nathan.command.codes.Order">
+      <point x="49.75" y="-51.0" />
+      <point x="168.15178571428575" y="154.0" />
+      <point x="395.1517857142858" y="154.0" />
+      <point x="-56.625" y="27.0" />
+    </edge>
+    <edge source="personal.nathan.command.codes.CommandPatternDemo" target="personal.nathan.command.codes.SellStock">
+      <point x="-23.25" y="-27.0" />
+      <point x="216.17559523809527" y="306.0" />
+      <point x="118.40178571428575" y="306.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="personal.nathan.command.codes.SellStock" target="personal.nathan.command.codes.Stock">
+      <point x="-49.75" y="-51.0" />
+      <point x="68.65178571428575" y="164.0" />
+      <point x="100.56547619047626" y="164.0" />
+      <point x="1.4210854715202004E-14" y="62.0" />
+    </edge>
+    <edge source="personal.nathan.command.codes.CommandPatternDemo" target="personal.nathan.command.codes.Broker">
+      <point x="69.75" y="-27.0" />
+      <point x="309.1755952380953" y="316.0" />
+      <point x="575.9017857142858" y="316.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="personal.nathan.command.codes.Broker" target="personal.nathan.command.codes.Order">
+      <point x="59.5" y="-50.5" />
+      <point x="635.4017857142858" y="154.0" />
+      <point x="508.4017857142858" y="154.0" />
+      <point x="56.625" y="27.0" />
+    </edge>
+    <edge source="personal.nathan.command.codes.BuyStock" target="personal.nathan.command.codes.Order">
+      <point x="49.75" y="-51.0" />
+      <point x="387.1517857142858" y="164.0" />
+      <point x="432.9017857142858" y="164.0" />
+      <point x="-18.875" y="27.0" />
+    </edge>
+    <edge source="personal.nathan.command.codes.BuyStock" target="personal.nathan.command.codes.Stock">
+      <point x="-49.75" y="-51.0" />
+      <point x="287.6517857142858" y="144.0" />
+      <point x="167.23214285714295" y="144.0" />
+      <point x="66.66666666666669" y="62.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="242.0" y="177.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
