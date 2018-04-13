@@ -23,5 +23,7 @@ public class Main {
                         '/'
                 );
         b4.show();
+        Display d5 = new UpDownBorder(new FullBorder(b1));
+        d5.show();
     }
 }
