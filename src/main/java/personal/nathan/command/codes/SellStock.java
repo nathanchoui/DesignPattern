@@ -1,7 +1,7 @@
 package personal.nathan.command.codes;
 
 /**
- * Description:
+ * 代表出售命令
  * <p>
  * Created by zhangwei on 2017/9/15.
  */

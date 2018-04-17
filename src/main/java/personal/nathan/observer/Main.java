@@ -13,6 +13,12 @@ public class Main {
         Observer ob2 = new GraphObserver();
         numberGenerator.addObserver(ob1);
         numberGenerator.addObserver(ob2);
-        numberGenerator.execute();
+//        numberGenerator.execute();
+
+
+        NumberGenerator incrementNumberGenerator = new IncrementNumberGenerator(0, 100, 5);
+        incrementNumberGenerator.addObserver(ob1);
+        incrementNumberGenerator.addObserver(ob2);
+        incrementNumberGenerator.execute();
     }
 }

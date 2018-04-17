@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Description:
+ * 经纪人、中间人
  * <p>
  * Created by zhangwei on 2017/9/15.
  */
