@@ -1,4 +1,4 @@
-package personal.nathan.HeadFirst.strategy;
+package personal.nathan.HeadFirst.strategy.duck;
 
 import personal.nathan.HeadFirst.strategy.fly.FlyBehavior;
 import personal.nathan.HeadFirst.strategy.quack.QuackBehavior;
@@ -6,11 +6,11 @@ import personal.nathan.HeadFirst.strategy.quack.QuackBehavior;
 /**
  * Created by za-zhangwei002 on 2019/1/21.
  */
-public class Duck {
+public abstract class Duck {
 
-    private FlyBehavior flyBehavior;
+    protected FlyBehavior flyBehavior;
 
-    private QuackBehavior quackBehavior;
+    protected QuackBehavior quackBehavior;
 
     public Duck() {}
 
@@ -23,8 +23,14 @@ public class Duck {
         flyBehavior.fly();
     }
 
-    public void performBehavior() {
+    public void performQuack() {
         quackBehavior.quack();
+    }
+
+    public abstract void display();
+
+    public void swim() {
+        System.out.println("All ducks float, even decoys!");
     }
 
     public void setFlyBehavior(FlyBehavior flyBehavior) {

@@ -6,6 +6,6 @@ package personal.nathan.HeadFirst.strategy.fly;
 public class FlyWithWings implements FlyBehavior {
 
     public void fly() {
-        System.out.println("fly with wings");
+        System.out.println("I'm flying!!");
     }
 }
