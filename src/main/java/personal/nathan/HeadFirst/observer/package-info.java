@@ -14,4 +14,6 @@ package personal.nathan.HeadFirst.observer;
  *
  *  此设计模式和MQ消息队列非常像，订阅主题的消费者可以收到更新信息，只是没有MQ的broker的概念，主题即为生产者。
  *
+ *  spring事件驱动模型，是观察者模式在spring中的应用，可参考。
+ *
  */
